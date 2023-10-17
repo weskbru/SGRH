@@ -9,8 +9,6 @@ public class Departamento {
 	private String descricao;
 	private List<Funcionario> funcionarios; // Lista de funcionários no departamento
 	private Funcionario responsavel; // Funcionário responsável pelo departamento
-	private String descricaoDepartamento;
-	private String nomeDoDepartamento;
 
 	public Departamento(int id, String nome, String descricao) {
 		this.id = id;
@@ -22,8 +20,7 @@ public class Departamento {
 	@Override
 	public String toString() {
 		return "Departamento [id=" + id + ", nome=" + nome + ", descricao=" + descricao + ", funcionarios="
-				+ funcionarios + ", responsavel=" + responsavel + ", descricaoDepartamento=" + descricaoDepartamento
-				+ ", nomeDoDepartamento=" + nomeDoDepartamento + "]";
+				+ funcionarios + ", responsavel=" + responsavel + "]";
 	}
 
 	// Adicionar um funcionário ao departamento
@@ -79,22 +76,6 @@ public class Departamento {
 
 	public void setResponsavel(Funcionario responsavel) {
 		this.responsavel = responsavel;
-	}
-
-	public String getDescricaoDepartamento() {
-		return descricaoDepartamento;
-	}
-
-	public void setDescricaoDepartamento(String descricaoDepartamento) {
-		this.descricaoDepartamento = descricaoDepartamento;
-	}
-
-	public String getNomeDoDepartamento() {
-		return nomeDoDepartamento;
-	}
-
-	public void setNomeDoDepartamento(String nomeDoDepartamento) {
-		this.nomeDoDepartamento = nomeDoDepartamento;
 	}
 
 }
