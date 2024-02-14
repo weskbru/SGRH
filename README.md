@@ -1,7 +1,7 @@
 
 
 # Sistema de Gerenciamento de Recursos Humanos (SGRH)
-
+O programa simula um sistema básico de gestão de recursos humanos, onde é possível criar departamentos, adicionar funcionários a esses departamentos, atribuir responsáveis e exibir informações relevantes sobre eles. 
 Este é um projeto de Sistema de Gerenciamento de Recursos Humanos (SGRH) que desenvolvi como parte do meu aprendizado em programação Java. Neste README, vou documentar o que aprendi e as áreas em que tive dificuldades durante o projeto.
 
 ## Aprendizado
